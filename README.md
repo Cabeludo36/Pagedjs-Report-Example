@@ -38,14 +38,16 @@ A configuração da biblioteca paged.js é realizada por meio de CSS personaliza
     margin-left: 15mm;
 
     @top-center {
-      content: element(headerEl);
       /* Utilizado para inserir o elemento headerEl no cabeçalho de cada página */
+      content: element(headerEl);
+      /* Estilos personalizáveis para as propriedades do elemento */
       text-transform: uppercase;
     }
 
     @bottom-center {
-      content: element(footerEl);
       /* Utilizado para inserir o elemento footerEl no rodapé de cada página */
+      content: element(footerEl);
+      /* Estilos personalizáveis para as propriedades do elemento */
       text-transform: uppercase;
     }
   }
